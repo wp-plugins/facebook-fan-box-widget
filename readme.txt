@@ -17,6 +17,8 @@ The Facebook fan box also has 'Like' button. This button interacts with your blo
 
 This widget requires WordPress version 2.8 or above to function properly.
 
+Screenshots:  http://emsphere.info/wp-plugin/facebook-fan-box-widget.html
+
 = Widget =
 
 In the Appearance -> Widgets in WordPress 2.8 or newer you'll find the Facebook Fan Box widget. After adding it to your sidebar you can enter a title for the Widget, and all settings required for this widget to work properly.
@@ -42,4 +44,4 @@ In the Appearance -> Widgets in WordPress 2.8 or newer you'll find the Facebook 
 
 Screenshots in official page 
 
-http://wp-plugins-themes.com/wp-plugin/wp-facebook-fan-box-widget-easy-wp-plugin/
+http://emsphere.info/wp-plugin/facebook-fan-box-widget.html
