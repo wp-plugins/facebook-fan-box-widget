@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name: WP Facebook Fan Box Widget- easy
+Plugin Name: Simple Facebook Like and Fan Box Widget
 Plugin URI: http://wp-plugins-themes.com/
 Description: Display facebook fan box as widget in your WordPress blog.
 Author: Vas Pro
-Version: 1.2
-Author URI: http://wp-plugins-themes.com/
+Version: 1.0
+Author URI: http://emsphere.info
 
-Copyright 2011 Vas Pro (email : sisolm@gmail.com)
+Copyright 2011 Vas Pro (email : vaske24081@gmail.com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

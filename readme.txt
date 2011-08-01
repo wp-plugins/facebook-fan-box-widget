@@ -1,10 +1,10 @@
-=== Facebook Fan Box Widget ===
+===Simple Facebook Like and Fan Box Widget===
 Contributors: Vas Pro
 
 Tags: facebook fan box, facebook, facebook fan box, facebook like, wp facebook fan box, wp facebok,facebok
 Requires at least: 2.8
 Tested up to: 3.2.1
-Stable tag: 1.2
+Stable tag: 1.0
 
 This is a WordPress widget to display a Facebook fan box on the sidebar. 
 == Description ==
