@@ -25,6 +25,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
 // wordpress plugin action hook
+
 add_action('plugins_loaded', 'wp_fb_fan_box_init');
 
 // initialization function
@@ -33,9 +34,7 @@ function wp_fb_fan_box_init() {
    $fanbox_fan_box = new wp_fb_fan_box();
 }
 
-/*
- * This is the namespace for the 'recent_comments_gravatar' plugin / widget.
- */
+
 class wp_fb_fan_box {
    
    protected $_name = "Facebook Fan Box";
@@ -46,9 +45,7 @@ class wp_fb_fan_box {
    protected $_link = 'http://24wn.com/';
    protected $_facebook_fan_box_api = 'http://www.facebook.com/connect/connect.php';
    
-   /*
-    * Constructor
-    */
+
    function __construct() {
       $path = __FILE__;
       if (!$path) { $path = $_SERVER['PHP_SELF']; }
@@ -64,9 +61,7 @@ class wp_fb_fan_box {
       $this->init();
    }
    
-   /*
-    * Initialization function, called by plugin_loaded action. .
-    */
+  
    function init() {
       add_filter("plugin_action_links_$plugin", array(&$this, 'link'));
       load_plugin_textdomain($this->_folder, false, $this->_folder);      

@@ -1,7 +1,7 @@
 ===Simple Facebook Like and Fan Box Widget===
-Contributors: Vas Pro
+Contributors: Zare
 
-Tags: facebook fan box, facebook, facebook fan box, facebook like, wp facebook fan box, wp facebok,facebok
+Tags: facebook fan box, facebook, facebook fan box, facebook like, wp facebook fan box, wp facebok,facebok , face box like
 Requires at least: 2.8
 Tested up to: 3.2.1
 Stable tag: 1.0
