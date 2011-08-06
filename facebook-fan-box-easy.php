@@ -61,7 +61,7 @@ class wp_fb_fan_box {
       $this->init();
    }
    
-  
+
    function init() {
       add_filter("plugin_action_links_$plugin", array(&$this, 'link'));
       load_plugin_textdomain($this->_folder, false, $this->_folder);      
@@ -108,7 +108,7 @@ class wp_fb_fan_box {
       // This is plain facebook fanbox, no embellishment
       echo '<iframe scrolling="no" frameborder="0" width="' . $options['width']. '" height="' . $options['height'] . '" src="' . $this->_facebook_fan_box_api . '?id=' . $options['profile_id'] . '&amp;connections=' . $options['connections'] . '&amp;stream=' . ($options['stream'] == 'checked' ? 'true' : 'false') . '&amp;header=' . ($options['header'] == 'checked' ? 'true' : 'false') . '&amp;locale=' . $options['locale'] . '"></iframe>';
       if ($options['link_to_us'] == 'checked') {
-      echo '<div style="display: none;"><div class="wffb-link"><a href="' . $this->_link . '" target="_blank">'. __('world news,information', $this->_folder) . '</a> <a href="http://news365online.com">automotive,business,crime,health,life,politics,science,technology,travel</a></div></div>';
+      echo '<div style="display: none;"><div class="wffb-link"><a href="' . $this->_link . '" target="_blank">'. __('w', $this->_folder) . '</a> </div></div>';
       }
    }
 
